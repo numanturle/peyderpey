@@ -1,0 +1,39 @@
+//----------------------- BREAKPOINTS ----------------------------------------//
+$ms: 320px;
+$mm: 375px;
+$ml: 425px;
+$ta: 768px;
+$ls: 1024px;
+$lm: 1920px;
+$ll: 1440px;
+$fk: 2560px;
+$ms-down: 'max-width : 319px';
+$mm-down: 'max-width : 374px';
+$ml-down: 'max-width : 424px';
+$ta-down: 'max-width : 767px';
+$ls-down: 'max-width : 1023px';
+$lm-down: 'max-width : 1919px';
+$ll-down: 'max-width : 1439px';
+$fk-down: 'max-width : 2559px';
+$ms-up: 'min-width : 320px';
+$mm-up: 'min-width : 375px';
+$ml-up: 'min-width : 425px';
+$ta-up: 'min-width : 768px';
+$ls-up: 'min-width : 1024px';
+$lm-up: 'min-width : 1920px';
+$ll-up: 'min-width : 1440px';
+$fk-up: 'min-width : 2560px';
+
+
+//----------------------- COLORS ---------------------------------------------//
+$black: #000;
+$white: #fff;
+$grey: #808080;
+$info: #2196f3;
+$success: #4caf50;
+$error: #f44336;
+$warning: #ff9800;
+
+
+//----------------------- OTHERS ---------------------------------------------//
+$space: 10px;

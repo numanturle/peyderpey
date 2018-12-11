@@ -1,0 +1,30 @@
+@import 'variable';
+
+//----------------------- IMAGES ---------------------------------------------//
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+//----------------------- COLORS ---------------------------------------------//
+
+.info, .success, .error, .warning {
+    color: $white;
+}
+
+.info {
+    background-color: $info;
+}
+
+.success {
+    background-color: $success;
+}
+
+.error {
+    background-color: $error;
+}
+
+.warning {
+    background-color: $warning;
+}

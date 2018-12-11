@@ -1,0 +1,15 @@
+matrix:
+  include:
+    - language: python
+      python:
+        - "nightly"
+      install:
+        - pip install pre-commit
+      script:
+        - pre-commit run --all-files
+  include:
+    - language: node_js
+      node_js:
+        - "node"
+      script:
+        - "npm run build"

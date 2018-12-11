@@ -1,0 +1,17 @@
+@import 'variable';
+
+//----------------------- BUTTONS --------------------------------------------//
+
+.btn, button {
+    border: 1px solid $grey;
+    padding: $space (2 * $space);
+
+    font-size: 1em;
+    text-decoration: none;
+
+    &:hover {
+        background: $grey;
+
+        cursor: pointer;
+    }
+}

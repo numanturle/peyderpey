@@ -1,0 +1,23 @@
+
+@import 'variable';
+
+//----------------------- TABLES ---------------------------------------------//
+
+table {
+    border-collapse: collapse;
+}
+
+thead, tfoot {
+    background: $grey;
+}
+
+tr:hover {
+    background: $grey;
+}
+
+th, td {
+    border: 1px solid $black;
+    padding: $space;
+
+    text-align: left;
+}

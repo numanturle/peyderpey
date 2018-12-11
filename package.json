@@ -1,0 +1,54 @@
+{
+  "name": "peyderpey",
+  "version": "0.1.0",
+  "description": "Basic Sass Framework",
+  "author": "Erdal TAŞKESEN",
+  "maintainers": [
+    {
+      "name": "Erdal TAŞKESEN",
+      "web": "http://www.erdaltaskesen.com/"
+    }
+  ],
+  "keywords": [
+    "frontend",
+    "framework",
+    "sass"
+  ],
+  "homepage": "https://github.com/erdtsksn/peyderpey",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:erdtsksn/peyderpey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erdtsksn/peyderpey/issues"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "license": "MIT",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "*",
+    "clean-css-cli": "*",
+    "concat": "*",
+    "csscomb": "*",
+    "foreach-cli": "*",
+    "node-sass": "*",
+    "postcss-cli": "*",
+    "uglify-js": "*"
+  },
+  "scripts": {
+    "csscomb": "csscomb ./src/styles",
+    "sass": "node-sass -o ./dist/ ./src/styles",
+    "autoprefixer": "npx postcss ./dist/*.css --use autoprefixer -d ./dist",
+    "cleancss": "foreach -g './dist/*[!min].css' -x 'cleancss #{path} -o #{dir}/#{name}.min#{ext}'",
+    "buildcss": "npm run csscomb; npm run sass; npm run autoprefixer; npm run cleancss",
+    "concatjs": "concat -o ./dist/peyderpey.js ./src/scripts/*.js",
+    "uglifyjs": "uglifyjs ./dist/peyderpey.js --compress  -o ./dist/peyderpey.min.js",
+    "buildjs": "npm run concatjs; npm run uglifyjs",
+    "build": "npm run buildcss; npm run buildjs"
+  }
+}
