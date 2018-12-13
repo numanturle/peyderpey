@@ -6,7 +6,7 @@
 
 Basic SASS Framework
 
-![Screenshot](https://i.imgur.com/4NeI5uI.png)
+![Screenshot](https://i.imgur.com/uzhT1h4.png)
 
 ## Features
 
