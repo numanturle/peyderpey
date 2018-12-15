@@ -40,7 +40,7 @@ in `index.html`:
 <script src="node_modules/peyderpey/dist/peyderpey.min.js"></script>
 ```
 
-in `_variable.scss`:
+in `_variable.scss`:
 
 ```css
 @import '~/node_modules/peyderpey/src/styles/variable';
