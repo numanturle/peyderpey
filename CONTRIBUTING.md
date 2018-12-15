@@ -12,14 +12,14 @@ project. Thank you for helping out and remember, no contribution is too small.
 You need to install and configure your environment before contributing.
 
 1. [**Install**](#prerequisites) prerequisites
-2. [**Fork**] the repository on GitHub
-3. [**Clone**] the project to your own machine
+2. **Fork** the repository on GitHub
+3. **Clone** the project to your own machine
 4. [**Activate**](#pre-commit) pre-commit hooks
 5. **Start working** on your fix, feature and etc.
 6. **Commit** changes to your own branch according to
    [**Commit Message Guidelines**](#commit-message-guidelines)
 7. **Push** your work back up to your fork
-8. Submit a [**Pull Request**] so that we can review your changes
+8. Submit a **Pull Request** so that we can review your changes
 
 NOTE: Be sure to merge the latest from "**upstream**" before making a pull
 request!
