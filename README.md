@@ -43,7 +43,7 @@ in `index.html`:
 in `_variable.scss`:
 
 ```css
-@import '~/node_modules/peyderpey/src/styles/variables';
+@import '~/node_modules/peyderpey/src/styles/variable';
 ```
 
 ### Via **jsdelivr**
