@@ -1,6 +1,7 @@
 # Peyderpey
 
 [![Build Status](https://travis-ci.com/erdtsksn/peyderpey.svg?token=xrqCzyRN8AeryvnXfjEu&branch=master)](https://travis-ci.com/erdtsksn/peyderpey)
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/peyderpey/badge?style=rounded)](https://www.jsdelivr.com/package/npm/peyderpey)
 
 ## About Peyderpey
 
