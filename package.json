@@ -41,9 +41,9 @@
     "uglify-js": "*"
   },
   "scripts": {
-    "csscomb": "csscomb ./src/styles",
-    "sass": "node-sass -o ./dist/ ./src/styles",
-    "autoprefixer": "npx postcss ./dist/*.css --use autoprefixer -d ./dist",
+    "csscomb": "csscomb ./src/styles/",
+    "sass": "node-sass -o ./dist/ ./src/styles/",
+    "autoprefixer": "npx postcss ./dist/*.css --use autoprefixer -d ./dist/",
     "cleancss": "foreach -g './dist/*[!min].css' -x 'cleancss #{path} -o #{dir}/#{name}.min#{ext}'",
     "buildcss": "npm run csscomb; npm run sass; npm run autoprefixer; npm run cleancss",
     "concatjs": "concat -o ./dist/peyderpey.js ./src/scripts/*.js",
